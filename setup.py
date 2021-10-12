@@ -4,7 +4,7 @@ setup(
     name='tensornumpykeras',
     version='0.0.1',
     description='My own test python project',
-    url='TODO: setup',
+    url='https://github.com/AlexKrudu/tensornumpykeras',
     author='Alexandr Krudu',
     author_email='KrudAlex@yandex.ru',
     license='BSD 2-clause',
