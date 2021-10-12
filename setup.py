@@ -11,11 +11,14 @@ setup(
     packages=['tensornumpykeras'],
     install_requires=['keras',
                       'numpy',
-                      'tensorflow',
+                      'tensorflow==2.6.0',
                       'scipy',
                       'scikit-learn',
                       'pillow',
-                      'h5py'
+                      'h5py',
+                      'tensorboard~=2.4',
+                      'tensorflow-estimator~=2.6',
+                      'tensorflow-gpu==2.6.0'
                       ],
 
     classifiers=[
